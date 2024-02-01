@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
+import gaur.himanshu.august.movies.data.Movie
 import gaur.himanshu.august.moviedetails.databinding.FragmentDetailsBinding
 import gaur.himanshu.august.movies.viewmodel.NsViewModel
+import androidx.databinding.library.baseAdapters.BR;
 @AndroidEntryPoint
 class MovieDetailFragment : Fragment() {
 
@@ -21,6 +23,11 @@ class MovieDetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentDetailsBinding.inflate(layoutInflater)
+        binding.setVariable(BR.movie, setData)
         return binding.root
+    }
+
+    companion object{
+        lateinit var setData: Movie
     }
 }

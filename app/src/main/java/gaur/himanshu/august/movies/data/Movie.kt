@@ -1,4 +1,4 @@
-package gaur.himanshu.august.moviedetails.data
+package gaur.himanshu.august.movies.data
 
 data class Movie(
     val Poster: String,
