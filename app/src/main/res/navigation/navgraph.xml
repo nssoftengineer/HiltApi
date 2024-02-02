@@ -5,7 +5,7 @@
     app:startDestination="@id/movieListFragment">
     <fragment
         android:id="@+id/movieListFragment"
-        android:name="gaur.himanshu.august.movies.ui.fragment.MovieListFragment"
+        android:name="com.neeraj.august.movies.ui.fragment.MovieListFragment"
         android:label="MovieListFragment" >
         <action
             android:id="@+id/action_movieListFragment_to_movieDetailFragment"
@@ -13,6 +13,6 @@
     </fragment>
     <fragment
         android:id="@+id/movieDetailFragment"
-        android:name="gaur.himanshu.august.movies.ui.fragment.MovieDetailFragment"
+        android:name="com.neeraj.august.movies.ui.fragment.MovieDetailFragment"
         android:label="MovieDetailFragment" />
 </navigation>

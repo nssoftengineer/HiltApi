@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-      <import type="gaur.himanshu.august.movies.data.Movie"/>
+      <import type="com.neeraj.august.movies.data.Movie"/>
         <variable
             name="movie"
             type="Movie" />
